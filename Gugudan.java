@@ -1,10 +1,9 @@
-package OssExma09;
+package OssExam08;
 
 import java.util.Scanner;
 
-public class gugudan {
-
-	public static void main(String[] args) {
+public class Gugudan {
+	public void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("출력하고 싶은 단 입력 :");
 		int num = sc.nextInt();
@@ -15,6 +14,8 @@ public class gugudan {
 				}
 				System.out.println();
 			}
+		} else if(num < 0) {
+			System.out.println("구구단 출력 불가");
 		} else {
 			for(int i = 0; i < 9 ; i++) {
 				System.out.println(num + " x " + (i+1) + " = " + num*(i+1) );
@@ -22,5 +23,4 @@ public class gugudan {
 		}
 
 	}
-
 }
