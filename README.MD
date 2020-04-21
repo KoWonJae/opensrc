@@ -1,3 +1,1 @@
-"readme file practice" 
-"clone test"
-"pull test"
+'원주율을 구하는 프로그램입니다.' 
